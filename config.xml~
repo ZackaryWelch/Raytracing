@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<scene>
+    <globals>
+        <Ambient antialias="0.3" light="0.1, 0.2, 0.3"/>
+    </globals>
+    <lights>
+        <Point_light reference="light1" location="1, 2, 3" color="0.123, 0.234, 0.345" />
+        <Parallel_light reference="light2" direction="1, 2, 3" color="0.123, 0.234, 0.345" />
+        <Parallel_light reference="light3" direction="2, 3, 4" color="0.123, 0.234, 0.345" />
+    </lights>
+    <cameras>
+        <Perspective_cam reference="camera1" location="0, 0, 0" look_at="0, 0, 1" h_angle="48"/>
+    </cameras>
+    <things>
+<!--
+        <box reference="box1" location="1, 2, 3" color="0.123, 0.234, 0.345" />
+-->
+        <Sphere reference="sphere1" location="0, 0, 3" radius="1.0" color="0.123, 0.234, 0.345" />
+        <Sphere reference="sphere2" location="1, 2, 3" radius="0.5" color="0.345, 0.234, 0.345" />
+<!--
+        <plane reference="plane1" direction="1, 1.2, 0.9" distance="2.3" />
+-->
+<!--
+        <cylinder reference="cyl1" location="0.2, 0.4, 2.0" height="1.6" color="0.123, 0.234, 0.345" />
+-->
+    </things>
+</scene>

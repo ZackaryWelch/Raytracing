@@ -1,0 +1,59 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
+#  gen_rays.py
+#  
+#  Copyright 2018 Unknown <root@hp425>
+#  
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 2 of the License, or
+#  (at your option) any later version.
+#  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#  
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+#  
+#  
+
+from rt_math import VEC3, Ray
+import pylab as plt
+
+def gen_rays(size_x, size_y, res_x, res_y):
+    for iy in range(res_y):
+        y = (res_y//2 - 0.5 - iy)/res_y*size_y
+        for ix in range(res_x):
+            x = (ix - res_x//2 + 0.5)/res_x*size_x
+            yield Ray(VEC3(0, 0, 0), VEC3(x, y, 3).normalize())
+            
+def intersected(loc, radius, ray):
+    a = 1
+    v = VEC3(0, 0, 0).subtract(loc)
+    b = 2 * ray.dir.dot(v)
+    c = ray.loc.subtract(loc).mag()**2 - radius**2
+    
+    return b*b >= 4*a*c
+
+
+def main(args):
+    w = 160
+    h = 120
+    gen = gen_rays(8, 6, w, h)
+    img = []
+    for ray in gen:
+        img.append(intersected(VEC3(-1, 1, 3), 0.5, ray))
+    img2d = [img[0+y*w:w+y*w] for y in range(h)]
+    
+    plt.imshow(img2d)
+    plt.show()
+    return 0
+
+if __name__ == '__main__':
+    import sys
+    sys.exit(main(sys.argv))

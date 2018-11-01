@@ -1,0 +1,40 @@
+Cambios:
+
+- 2018/10/19
+    Added titles to main classes
+    
+    rt_rays.py
+        - Calculo del tamano de la imagen tiene que usar tan, no atan!
+        - Tamano completo es 2 * tan (ya que calcula con solo 1/2 del h_angle)
+        - Re-create PIL Image on reading the configuration
+            (else the image size reserved was wrong)
+        - Calcular correctamente iluminacion ambiente y luz de las fuentes
+
+- 2018/10/22
+    rt_rays.py
+        - Funciona la iluminacion difusa, con los colores correctos, y
+          tomando en cuenta al color de la fuente de luz.
+
+- 2018/10/27
+    rt_math
+        - Agregué "reflect" a VEC3, para obtener el vector reflejado a otro.
+
+    rt_elem
+        - Agregué parametro "phong" para controlar la reflection especular.
+          Se modificó la clase Sphere acorde.
+
+    rt_rays
+        - Corregí un par de problemas en la combinación de colores.
+        - En casos excepcionales, es posible que el rayo de la fuente de luz
+          hasta el punto impacto del rayo no se llega a detectar. En este caso
+          consideramos que no llega la luz.
+
+    config.xml
+        - Agregué 3 esferas y una luz para controlar los puntos anteriores.
+
+- 2018/10/29
+    rt_math:
+        - Reemplazar los operadores +, -, *, abs() para VEC3, y remover los
+          metodos add, subtract, times, mag(), dot.
+        - Modificar codigo en rt_elem, rt.rays para los operadores nuevos
+
