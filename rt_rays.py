@@ -20,8 +20,6 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
 #  
-#  
-
 
 import gi
 gi.require_version('Gtk', '3.0')
@@ -58,7 +56,6 @@ class Ray_generator():
         self.loc = loc
         self.look_at = look_at
         
-        
     def generate(self, x0, y0, x1, y1):
         """ Generar los rayos para renderizar la imagen. La imagen generada
             puede ser menor o igual que el tamano definido.
@@ -76,9 +73,7 @@ class Ray_generator():
             # Para cada pixel en la fila
             for ix in range(x0, x1):
                 x = (ix - self.res_x//2 + 0.5) / self.res_x*self.size[0]
-                yield (Ray(self.loc, VEC3(x, y, 1).normalize()),
-                       ix,
-                       iy)
+                yield (Ray(self.loc, VEC3(x, y, 1).normalize()), ix, iy)
             
 #~   ____                          
 #~  / ___|__ _ _ ____   ____ _ ___ 
@@ -103,19 +98,16 @@ class Canvas(Gtk.Frame):
         
         self.add(scroller)
 
-
     def create_pil_image(self, w, h, bg = "Black"):
         self.img_pil = Image.new("RGB", (w, h), bg)
         self.update_pixbuf()
         
         GLib.timeout_add(500, self.update_pixbuf)
 
-
     def update_pixbuf(self):
         self.pxb = image2pixbuf(self.img_pil.copy())
         self.img.set_from_pixbuf(self.pxb)
         return True
-
 
     def on_button_pressed(self, img, event):
         if event.button != 3:
@@ -127,7 +119,6 @@ class Canvas(Gtk.Frame):
         menu.append(mitem)
         menu.show_all()
         menu.popup(None, None, None, None, event.button, event.time)
-
 
     def on_save_activated(self, mitem):
         fname = save_file_as_dialog(self.get_toplevel(), "image.png",
@@ -245,7 +236,6 @@ class Tracer():
                                 phong_cos **= phong
                                 pixel_color = pixel_color + lcol * phong_cos
 
-
                 thing_color = pixel_color.as_byte_tuple()
                 #~ print(thing_color)
                 self.parent.canvas.set_pixel(ix, iy, thing_color)
@@ -264,7 +254,6 @@ class MainWindow(Gtk.Window):
 
     def run(self):
         Gtk.main()
-
 
 def main(args):
     mainwdw = MainWindow()
