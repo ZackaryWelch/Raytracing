@@ -34,8 +34,8 @@ import pdb
 
 CONFIG_FILE = "config.xml"
 VERSION = "0.3"
-AUTHORS = ("John Coppens", )
-WEBSITE = "http://jcoppens.com"
+AUTHORS = ("Zackary Welch", )
+WEBSITE = "http://www.google.com"
 
 #~  __  __       _                  _           _               
 #~ |  \/  | __ _(_)_ __   __      _(_)_ __   __| | _____      __
@@ -56,10 +56,10 @@ class MainWindow(Gtk.Window):
         
         self.main_menu = self.make_main_menu()
         self.nb = Gtk.Notebook()
-        self.nb.append_page(self.canvas, Gtk.Label("Canvas"))
-        self.nb.append_page(self.scenetree, Gtk.Label("Escena"))
+        self.nb.append_page(self.canvas, Gtk.Label(label="Canvas"))
+        self.nb.append_page(self.scenetree, Gtk.Label(label="Escena"))
         
-        self.render_btn = Gtk.Button("Renderizar")
+        self.render_btn = Gtk.Button(label="Renderizar")
         self.render_btn.connect("clicked", self.on_render_btn_clicked)
 
         grid = Gtk.Grid()
