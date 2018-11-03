@@ -23,6 +23,7 @@
         <Sphere reference="sphere3" location="-0.4, 0, 1.4" radius="0.1" color="1, 0, 0" phong="5" />
         <Sphere reference="sphere4" location="0, 0, 1.4" radius="0.1" color="0, 1, 0" phong="5" />
         <Sphere reference="sphere5" location="0.4, 0, 1.4" radius="0.1" color="0, 0, 1" phong="5" />
-        <Plane  reference="plane1"  normal="0, 1, 0" distance="-0.3" color="1, 1, 0" />
+        <!-- <Cone reference="cone1" center="1, 2, -3" height="0.5" radius="0.25" closed="true" /> -->
+        <Plane reference="plane1"  normal="0, 1, 0" distance="-0.3" color="1, 1, 0" />
     </things>
 </scene>
