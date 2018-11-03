@@ -252,26 +252,6 @@ class Scene_tree(Gtk.Frame):
 
         self.show_scene(scene)
 
-
-
-demo_scene = {
-    "globals": {
-        #~ "ambient": Ambient(light = "0.1, 0.2, 0.3", antialias = "0.3")
-    },
-    "lights": {
-        "pt001":   Point_light(reference = "pt001", location = "1, 2, 3", color = "0.123, 0.234, 0.345"),
-        #~ "par002":  Parallel_light("par002", "1, 2, 3", "0.123, 0.234, 0.345"),
-        #~ "par003":  Parallel_light("par003", "2, 3, 4", "0.123, 0.234, 0.345")
-    },
-    "cameras": {
-        #~ "per1":    Perspective_cam("per1", "0, 0, 0", "0, 0, 1", "48.0")
-    },
-    "things": {
-        "sphere1": Sphere("sphere1", "1, 2, 3", "1.0", "0, 0, 1")
-    }
-}
-
-
 class MainWindow(Gtk.Window):
     def __init__(self):
         super(MainWindow, self).__init__()
@@ -283,8 +263,6 @@ class MainWindow(Gtk.Window):
         scene.show_scene(demo_scene)
         pdb.set_trace()
         new_scene = scene.parse_scene()
-        #~ scene.save_scene_as(demo_scene, "demo.xml")
-        #~ new_scene = scene.load_scene_from("demo.xml")
         
         self.add(scene)
         
@@ -293,8 +271,6 @@ class MainWindow(Gtk.Window):
 
     def run(self):
         Gtk.main()
-
-
 
 
 def main(args):
