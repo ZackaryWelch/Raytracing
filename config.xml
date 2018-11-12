@@ -18,12 +18,7 @@
         <Perspective_cam reference="camera1" location="0, 3, 0" look_at="0, 0, 1" h_angle="48"/>
     </cameras>
     <things>
-        <Sphere reference="sphere1" location="0, 0, 4" radius="1.0" color="1, 1, 1" phong="5" />
-        <Sphere reference="sphere2" location="0, 0.5, 1.5" radius="0.2" color="1, 1, 0" />
-        <Sphere reference="sphere3" location="-0.4, 0, 1.4" radius="0.1" color="1, 0, 0" phong="5" />
-        <Sphere reference="sphere4" location="0, 0, 1.4" radius="0.1" color="0, 1, 0" phong="5" />
-        <Sphere reference="sphere5" location="0.4, 0, 1.4" radius="0.1" color="0, 0, 1" phong="5" />
-        <!-- <Cone reference="cone1" center="1, 2, -3" height="0.5" radius="0.25" closed="true" /> -->
+        <Cone reference="cone1" center="1, 2, -3" height="0.5" radius="0.25" closed="true" />
         <Plane reference="plane1"  normal="0, 1, 0" distance="-0.3" color="1, 1, 0" />
     </things>
 </scene>
