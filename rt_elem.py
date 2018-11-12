@@ -147,20 +147,24 @@ class Cylinder(Thing):
 class Cone(Thing):
     def __init__(self, reference,
                 center = VEC3(0.0, -0.5, 0.0),
+                color = "1,1,1",
                 height = 1.0,
                 radius = 0.5,
-                closed = True):
+                closed = True,
+                phone = None):
         super(Cone, self).__init__(reference)
         self.pars.update(
                     center = VEC3(center),
                     height = float(height),
                     radius = float(radius),
-                    closed = closed == "True" )
+                    closed = closed == "True",
+                    color = RGB(color),
+                    phong = None if phong is None else float(phong) )
 
 
     def __str__(self):
         return ("Cone(ref: {reference}, center: {center}, height: {height}, "
-                "radius: {radius}, closed: {closed})").format(**self.pars)
+                "radius: {radius}, closed: {closed}), color = RGB(color), phong: {phong}").format(**self.pars)
 
 
     def intersected(self, ray):
