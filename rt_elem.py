@@ -191,8 +191,8 @@ class Cone(Thing):
         if s > 0:
             r1 = (-b - m.sqrt(s))/(2*a)
             r2 = (-b + m.sqrt(s))/(2*a)
-            height = 0 - my_height
-            if ((ray.at(r1) - my_centro) * height_v < 0) and ((ray.at(r1) - my_centro) * height_v > height):
+            rango = (ray.at(r1) - my_centro) * height_v
+            if (rango < 0) and (rango > 0 - my_height):
                     return [Hit( r1, (ray.at(r1) - my_centro).normalize(), self ),
                             Hit( r2, (ray.at(r2) - my_centro).normalize(), self ) ]
             else:
@@ -200,7 +200,8 @@ class Cone(Thing):
 
         elif s == 0:
             r = -b/(2*a)
-            if rayo_1 < 0:
+            rango = (ray.at(r1) - my_centro) * height_v
+            if (rango < 0) and (rango > 0 - my_height):
                 return [Hit( r, (ray.at(r) - my_centro).normalize(), self) ]
             else:
                 return []
