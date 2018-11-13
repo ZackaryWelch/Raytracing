@@ -246,6 +246,7 @@ class Scene_tree(Gtk.Frame):
                         "Cone": Cone,
                         "Box": Box,
                         "Plane": Plane,
+                        "Disk": Disk,
                         "Point_light": Point_light,
                         "Parallel_light": Parallel_light,
                         "Perspective_cam": Perspective_cam}[el.tag](**par_dict)

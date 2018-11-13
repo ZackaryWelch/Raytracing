@@ -189,19 +189,19 @@ class Cone(Thing):
         c = (v*height_v)**2-v*v*m.cos(theta)**2 
         s = (b*b - 4*a*c) * 20*m.pi
 
-        if(closed):
-            p = VEC3(my_centro.x, my_centro.y-my_height, my_centro.x)
-            pn = VEC3(0, p.y, 0).normalize()
-            base = -((ray.loc - p) * pn)/(ray.dir * pn)
-            print(a, b, c, s, p, pn, base)
+        #if(closed):
+            #p = VEC3(my_centro.x, my_centro.y-my_height, my_centro.x)
+            #pn = VEC3(0, p.y, 0).normalize()
+            #base = -((ray.loc - p) * pn)/(ray.dir * pn)
+            #print(a, b, c, s, p, pn, base)
 
         if s > 0:
             r1 = (-b - m.sqrt(s))/(2*a)
             r2 = (-b + m.sqrt(s))/(2*a)
             rango = (ray.at(r1) - my_centro) * height_v
             if (rango < 0) and (rango > 0 - my_height):
-                    return [Hit( r1, (ray.at(r1) - my_centro).normalize(), self ),
-                            Hit( r2, (ray.at(r2) - my_centro).normalize(), self ) ]
+                return [Hit( r1, (ray.at(r1) - my_centro).normalize(), self ),
+                        Hit( r2, (ray.at(r2) - my_centro).normalize(), self ) ]
             else:
                 return []
 
@@ -240,6 +240,38 @@ class Triangle(Thing):
     def intersected(self, ray):
         return []
         
+
+class Disk(Thing):
+    def __init__(self, reference,
+                normal = "-0.5, -0.5, -0.5",
+                radius = "1.0",
+                color = "1, 1, 1",
+                phong = None):
+        super(Disk, self).__init__(reference)
+        self.pars.update(
+                    normal = VEC3(normal),
+                    radius = float(radius),
+                    color = RGB(color),
+                    phong = None if phong is None else float(phong) )
+
+
+    def __str__(self):
+        return ("Disk(ref: {reference}, normal: {normal}, "
+                "radius: {radius})").format(**self.pars)
+
+
+    def intersected(self, ray):
+        p = self.pars["normal"]
+        r = self.pars["radius"]
+        n = VEC3(0, p.y, 0).normalize()
+        if (n * ray.dir) > 0.001:
+            t = ((p - ray.loc) * n) / (n * ray.dir)
+            if t > 0:
+                return [Hit(t, (ray.at(t) - n).normalize(), self)]
+            else:
+                return []
+        else:
+            return []
         
                   
 class Plane(Thing):
