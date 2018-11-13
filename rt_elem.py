@@ -148,10 +148,10 @@ class Cone(Thing):
     def __init__(self, reference,
                 center = VEC3(0.0, -0.5, 0.0),
                 color = "1,1,1",
-                height = 1.0,
+                height = "1.0",
                 radius = 0.5,
                 closed = True,
-                phone = None):
+                phong = None):
         super(Cone, self).__init__(reference)
         self.pars.update(
                     center = VEC3(center),
@@ -176,15 +176,14 @@ class Cone(Thing):
         my_centro = self.pars["center"]
         my_radius = self.pars["radius"]
         my_height = self.pars["height"]
-        height_v = VEC3(my_centro.x, my_centro.y*my_height, my_centro.z)
-        #v = my_centro * ray.loc
+        height_v = VEC3(0, my_centro.y, 0).normalize()
         v = ray.loc - my_centro
         theta = m.atan2(my_radius, my_height)
         a = (ray.dir * height_v)**2 - m.cos(theta)**2
-        print(my_centro)
-        print(ray.loc)
-        print(ray.dir)
-        print(height_v)
+        #print(my_centro)
+        #print(ray.loc)
+        #print(ray.dir)
+        #print(height_v)
         c1 = (ray.dir * height_v)
         c2 = (v * height_v)
         c3 = v*(m.cos(theta)**2)
@@ -194,7 +193,7 @@ class Cone(Thing):
         c = (v*height_v)**2-v*v*m.cos(theta)**2 
         s = b*b - 4*a*c
 
-        print(a, b, c, s)
+        #print(a, b, c, s)
     
         if s > 0:
             r1 = (-b - m.sqrt(s))/(2*a)
