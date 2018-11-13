@@ -171,7 +171,7 @@ class Tracer():
         p.canvas.create_pil_image(img_w, img_h, bgcolor)
         
         raygen = Ray_generator( h_size, h_size * self.img_aspect,
-                                img_w, img_h)
+                                img_w, img_h, loc = self.cam_loc)
                                 
         self.gen = raygen.generate(x0, y0, x1, y1)
     
