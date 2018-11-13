@@ -24,7 +24,7 @@
 
 from colors import Colors
 
-def generate_spheres():
+def generate_conos():
     """ Fabrica una imagen de los 140 colores del archivo colors.py,
         aplicados a esferas. Las esferas estan ubicados en un arreglo de
         4 por 3 unidades, y estan ordenados en 10 filas de 14 esferas.
@@ -34,6 +34,7 @@ def generate_spheres():
     SCENE_NAME = "140_conos.xml"
     dist = 4.5;                     # Distancia del origen
     radius = 0.13                   # Radio de la esferas
+    cone_height = 0.13
     width = 4; height = 3;          # Tamanio del arreglo
     el_hor = 14                     # 14 esferas por fila...
     el_vert = 10                    # y 10 filas
@@ -71,10 +72,11 @@ def generate_spheres():
             for ix in range(14):
                 x0 = col_width * (ix - el_hor/2 + 0.5)
                 
-                print('    <Cone reference="{}" centro="{}" radius="{}" height="{}" color="{}, {}, {}" {}/>'.format(
-                            "sphere_{}_{}".format(iy, ix),
+                print('    <Cone reference="{}" center="{}" radius="{}" height="{}" color="{}, {}, {}" {}/>'.format(
+                            "cone{}_{}".format(iy, ix),
                             "{}, {}, {}".format(x0, y0, dist),
                             radius,
+                            cone_height,
                             *next(color_gen),
                             phong), file = xmlf)
 
@@ -84,7 +86,7 @@ def generate_spheres():
         
 
 def main(args):
-    generate_spheres()
+    generate_conos()
     return 0
 
 if __name__ == '__main__':
