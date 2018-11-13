@@ -148,7 +148,7 @@ class Cone(Thing):
     def __init__(self, reference,
                 center = VEC3(0.0, -0.5, 0.0),
                 color = "1,1,1",
-                height = "1.0",
+                height = 1.0,
                 radius = 0.5,
                 closed = True,
                 phong = None):
@@ -180,30 +180,30 @@ class Cone(Thing):
         v = ray.loc - my_centro
         theta = m.atan2(my_radius, my_height)
         a = (ray.dir * height_v)**2 - m.cos(theta)**2
-        #print(my_centro)
-        #print(ray.loc)
-        #print(ray.dir)
-        #print(height_v)
         c1 = (ray.dir * height_v)
         c2 = (v * height_v)
         c3 = v*(m.cos(theta)**2)
         c4 = ray.dir * c3
-        #b = (((ray.dir * height_v)*(v*height_v))-(ray.dir*((m.cos(theta)**2)*v)))*2
         b = ((c1*c2)-c4)*2
         c = (v*height_v)**2-v*v*m.cos(theta)**2 
         s = b*b - 4*a*c
-
-        #print(a, b, c, s)
     
         if s > 0:
             r1 = (-b - m.sqrt(s))/(2*a)
             r2 = (-b + m.sqrt(s))/(2*a)
-            return [Hit( r1, (ray.at(r1) - my_centro).normalize(), self ),
-                    Hit( r2, (ray.at(r2) - my_centro).normalize(), self ) ]
+            height = 0 - my_height
+            if ((ray.at(r1) - my_centro) * height_v < 0) and ((ray.at(r1) - my_centro) * height_v > height):
+                    return [Hit( r1, (ray.at(r1) - my_centro).normalize(), self ),
+                            Hit( r2, (ray.at(r2) - my_centro).normalize(), self ) ]
+            else:
+                return []
 
         elif s == 0:
             r = -b/(2*a)
-            return [Hit( r, (ray.at(r) - my_centro).normalize(), self) ]
+            if rayo_1 < 0:
+                return [Hit( r, (ray.at(r) - my_centro).normalize(), self) ]
+            else:
+                return []
 
         else:
             return []
