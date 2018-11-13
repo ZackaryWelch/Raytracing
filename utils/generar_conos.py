@@ -35,6 +35,7 @@ def generate_conos():
     dist = 4.5;                     # Distancia del origen
     radius = 0.13                   # Radio de la esferas
     cone_height = 0.13
+    closed = "False"
     width = 4; height = 3;          # Tamanio del arreglo
     el_hor = 14                     # 14 esferas por fila...
     el_vert = 10                    # y 10 filas
@@ -72,11 +73,12 @@ def generate_conos():
             for ix in range(14):
                 x0 = col_width * (ix - el_hor/2 + 0.5)
                 
-                print('    <Cone reference="{}" center="{}" radius="{}" height="{}" color="{}, {}, {}" {}/>'.format(
+                print('    <Cone reference="{}" center="{}" radius="{}" height="{}" closed="{}" color="{}, {}, {}" {}/>'.format(
                             "cone{}_{}".format(iy, ix),
                             "{}, {}, {}".format(x0, y0, dist),
                             radius,
                             cone_height,
+                            closed,
                             *next(color_gen),
                             phong), file = xmlf)
 

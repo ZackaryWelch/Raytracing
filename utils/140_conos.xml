@@ -11,146 +11,146 @@
     <Perspective_cam reference="camera1" location="0, 0, 0" look_at="0, 0, 1" h_angle="48"/>
   </cameras>
   <things>
-    <Cone reference="cone0_0" center="-1.857142857142857, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.9375, 0.96875, 0.996094" phong="8" />
-    <Cone reference="cone0_1" center="-1.5714285714285714, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.976562, 0.917969, 0.839844" phong="8" />
-    <Cone reference="cone0_2" center="-1.2857142857142856, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0, 0.996094, 0.996094" phong="8" />
-    <Cone reference="cone0_3" center="-1.0, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.496094, 0.996094, 0.828125" phong="8" />
-    <Cone reference="cone0_4" center="-0.7142857142857142, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.9375, 0.996094, 0.996094" phong="8" />
-    <Cone reference="cone0_5" center="-0.42857142857142855, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.957031, 0.957031, 0.859375" phong="8" />
-    <Cone reference="cone0_6" center="-0.14285714285714285, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.996094, 0.890625, 0.765625" phong="8" />
-    <Cone reference="cone0_7" center="0.14285714285714285, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0, 0, 0" phong="8" />
-    <Cone reference="cone0_8" center="0.42857142857142855, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.996094, 0.917969, 0.800781" phong="8" />
-    <Cone reference="cone0_9" center="0.7142857142857142, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0, 0, 0.996094" phong="8" />
-    <Cone reference="cone0_10" center="1.0, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.539062, 0.167969, 0.882812" phong="8" />
-    <Cone reference="cone0_11" center="1.2857142857142856, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.644531, 0.164062, 0.164062" phong="8" />
-    <Cone reference="cone0_12" center="1.5714285714285714, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.867188, 0.71875, 0.527344" phong="8" />
-    <Cone reference="cone0_13" center="1.857142857142857, -1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.371094, 0.617188, 0.625" phong="8" />
-    <Cone reference="cone1_0" center="-1.857142857142857, -1.05, 4.5" radius="0.13" height="0.13" color="0.496094, 0.996094, 0" phong="8" />
-    <Cone reference="cone1_1" center="-1.5714285714285714, -1.05, 4.5" radius="0.13" height="0.13" color="0.820312, 0.410156, 0.117188" phong="8" />
-    <Cone reference="cone1_2" center="-1.2857142857142856, -1.05, 4.5" radius="0.13" height="0.13" color="0.996094, 0.496094, 0.3125" phong="8" />
-    <Cone reference="cone1_3" center="-1.0, -1.05, 4.5" radius="0.13" height="0.13" color="0.390625, 0.582031, 0.925781" phong="8" />
-    <Cone reference="cone1_4" center="-0.7142857142857142, -1.05, 4.5" radius="0.13" height="0.13" color="0.996094, 0.96875, 0.859375" phong="8" />
-    <Cone reference="cone1_5" center="-0.42857142857142855, -1.05, 4.5" radius="0.13" height="0.13" color="0.859375, 0.078125, 0.234375" phong="8" />
-    <Cone reference="cone1_6" center="-0.14285714285714285, -1.05, 4.5" radius="0.13" height="0.13" color="0, 0.996094, 0.996094" phong="8" />
-    <Cone reference="cone1_7" center="0.14285714285714285, -1.05, 4.5" radius="0.13" height="0.13" color="0, 0, 0.542969" phong="8" />
-    <Cone reference="cone1_8" center="0.42857142857142855, -1.05, 4.5" radius="0.13" height="0.13" color="0, 0.542969, 0.542969" phong="8" />
-    <Cone reference="cone1_9" center="0.7142857142857142, -1.05, 4.5" radius="0.13" height="0.13" color="0.71875, 0.523438, 0.0429688" phong="8" />
-    <Cone reference="cone1_10" center="1.0, -1.05, 4.5" radius="0.13" height="0.13" color="0.660156, 0.660156, 0.660156" phong="8" />
-    <Cone reference="cone1_11" center="1.2857142857142856, -1.05, 4.5" radius="0.13" height="0.13" color="0, 0.390625, 0" phong="8" />
-    <Cone reference="cone1_12" center="1.5714285714285714, -1.05, 4.5" radius="0.13" height="0.13" color="0.660156, 0.660156, 0.660156" phong="8" />
-    <Cone reference="cone1_13" center="1.857142857142857, -1.05, 4.5" radius="0.13" height="0.13" color="0.738281, 0.714844, 0.417969" phong="8" />
-    <Cone reference="cone2_0" center="-1.857142857142857, -0.75, 4.5" radius="0.13" height="0.13" color="0.542969, 0, 0.542969" phong="8" />
-    <Cone reference="cone2_1" center="-1.5714285714285714, -0.75, 4.5" radius="0.13" height="0.13" color="0.332031, 0.417969, 0.183594" phong="8" />
-    <Cone reference="cone2_2" center="-1.2857142857142856, -0.75, 4.5" radius="0.13" height="0.13" color="0.996094, 0.546875, 0" phong="8" />
-    <Cone reference="cone2_3" center="-1.0, -0.75, 4.5" radius="0.13" height="0.13" color="0.597656, 0.195312, 0.796875" phong="8" />
-    <Cone reference="cone2_4" center="-0.7142857142857142, -0.75, 4.5" radius="0.13" height="0.13" color="0.542969, 0, 0" phong="8" />
-    <Cone reference="cone2_5" center="-0.42857142857142855, -0.75, 4.5" radius="0.13" height="0.13" color="0.910156, 0.585938, 0.476562" phong="8" />
-    <Cone reference="cone2_6" center="-0.14285714285714285, -0.75, 4.5" radius="0.13" height="0.13" color="0.558594, 0.734375, 0.558594" phong="8" />
-    <Cone reference="cone2_7" center="0.14285714285714285, -0.75, 4.5" radius="0.13" height="0.13" color="0.28125, 0.238281, 0.542969" phong="8" />
-    <Cone reference="cone2_8" center="0.42857142857142855, -0.75, 4.5" radius="0.13" height="0.13" color="0.183594, 0.308594, 0.308594" phong="8" />
-    <Cone reference="cone2_9" center="0.7142857142857142, -0.75, 4.5" radius="0.13" height="0.13" color="0.183594, 0.308594, 0.308594" phong="8" />
-    <Cone reference="cone2_10" center="1.0, -0.75, 4.5" radius="0.13" height="0.13" color="0, 0.804688, 0.816406" phong="8" />
-    <Cone reference="cone2_11" center="1.2857142857142856, -0.75, 4.5" radius="0.13" height="0.13" color="0.578125, 0, 0.824219" phong="8" />
-    <Cone reference="cone2_12" center="1.5714285714285714, -0.75, 4.5" radius="0.13" height="0.13" color="0.996094, 0.078125, 0.574219" phong="8" />
-    <Cone reference="cone2_13" center="1.857142857142857, -0.75, 4.5" radius="0.13" height="0.13" color="0, 0.746094, 0.996094" phong="8" />
-    <Cone reference="cone3_0" center="-1.857142857142857, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.410156, 0.410156, 0.410156" phong="8" />
-    <Cone reference="cone3_1" center="-1.5714285714285714, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.410156, 0.410156, 0.410156" phong="8" />
-    <Cone reference="cone3_2" center="-1.2857142857142856, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.117188, 0.5625, 0.996094" phong="8" />
-    <Cone reference="cone3_3" center="-1.0, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.695312, 0.132812, 0.132812" phong="8" />
-    <Cone reference="cone3_4" center="-0.7142857142857142, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.996094, 0.976562, 0.9375" phong="8" />
-    <Cone reference="cone3_5" center="-0.42857142857142855, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.132812, 0.542969, 0.132812" phong="8" />
-    <Cone reference="cone3_6" center="-0.14285714285714285, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.996094, 0, 0.996094" phong="8" />
-    <Cone reference="cone3_7" center="0.14285714285714285, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.859375, 0.859375, 0.859375" phong="8" />
-    <Cone reference="cone3_8" center="0.42857142857142855, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.96875, 0.96875, 0.996094" phong="8" />
-    <Cone reference="cone3_9" center="0.7142857142857142, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.996094, 0.839844, 0" phong="8" />
-    <Cone reference="cone3_10" center="1.0, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.851562, 0.644531, 0.125" phong="8" />
-    <Cone reference="cone3_11" center="1.2857142857142856, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.5, 0.5, 0.5" phong="8" />
-    <Cone reference="cone3_12" center="1.5714285714285714, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0, 0.5, 0" phong="8" />
-    <Cone reference="cone3_13" center="1.857142857142857, -0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.675781, 0.996094, 0.183594" phong="8" />
-    <Cone reference="cone4_0" center="-1.857142857142857, -0.15, 4.5" radius="0.13" height="0.13" color="0.5, 0.5, 0.5" phong="8" />
-    <Cone reference="cone4_1" center="-1.5714285714285714, -0.15, 4.5" radius="0.13" height="0.13" color="0.9375, 0.996094, 0.9375" phong="8" />
-    <Cone reference="cone4_2" center="-1.2857142857142856, -0.15, 4.5" radius="0.13" height="0.13" color="0.996094, 0.410156, 0.703125" phong="8" />
-    <Cone reference="cone4_3" center="-1.0, -0.15, 4.5" radius="0.13" height="0.13" color="0.800781, 0.359375, 0.359375" phong="8" />
-    <Cone reference="cone4_4" center="-0.7142857142857142, -0.15, 4.5" radius="0.13" height="0.13" color="0.292969, 0, 0.507812" phong="8" />
-    <Cone reference="cone4_5" center="-0.42857142857142855, -0.15, 4.5" radius="0.13" height="0.13" color="0.996094, 0.996094, 0.9375" phong="8" />
-    <Cone reference="cone4_6" center="-0.14285714285714285, -0.15, 4.5" radius="0.13" height="0.13" color="0.9375, 0.898438, 0.546875" phong="8" />
-    <Cone reference="cone4_7" center="0.14285714285714285, -0.15, 4.5" radius="0.13" height="0.13" color="0.898438, 0.898438, 0.976562" phong="8" />
-    <Cone reference="cone4_8" center="0.42857142857142855, -0.15, 4.5" radius="0.13" height="0.13" color="0.996094, 0.9375, 0.957031" phong="8" />
-    <Cone reference="cone4_9" center="0.7142857142857142, -0.15, 4.5" radius="0.13" height="0.13" color="0.484375, 0.984375, 0" phong="8" />
-    <Cone reference="cone4_10" center="1.0, -0.15, 4.5" radius="0.13" height="0.13" color="0.996094, 0.976562, 0.800781" phong="8" />
-    <Cone reference="cone4_11" center="1.2857142857142856, -0.15, 4.5" radius="0.13" height="0.13" color="0.675781, 0.84375, 0.898438" phong="8" />
-    <Cone reference="cone4_12" center="1.5714285714285714, -0.15, 4.5" radius="0.13" height="0.13" color="0.9375, 0.5, 0.5" phong="8" />
-    <Cone reference="cone4_13" center="1.857142857142857, -0.15, 4.5" radius="0.13" height="0.13" color="0.875, 0.996094, 0.996094" phong="8" />
-    <Cone reference="cone5_0" center="-1.857142857142857, 0.15, 4.5" radius="0.13" height="0.13" color="0.976562, 0.976562, 0.820312" phong="8" />
-    <Cone reference="cone5_1" center="-1.5714285714285714, 0.15, 4.5" radius="0.13" height="0.13" color="0.824219, 0.824219, 0.824219" phong="8" />
-    <Cone reference="cone5_2" center="-1.2857142857142856, 0.15, 4.5" radius="0.13" height="0.13" color="0.5625, 0.929688, 0.5625" phong="8" />
-    <Cone reference="cone5_3" center="-1.0, 0.15, 4.5" radius="0.13" height="0.13" color="0.824219, 0.824219, 0.824219" phong="8" />
-    <Cone reference="cone5_4" center="-0.7142857142857142, 0.15, 4.5" radius="0.13" height="0.13" color="0.996094, 0.710938, 0.753906" phong="8" />
-    <Cone reference="cone5_5" center="-0.42857142857142855, 0.15, 4.5" radius="0.13" height="0.13" color="0.996094, 0.625, 0.476562" phong="8" />
-    <Cone reference="cone5_6" center="-0.14285714285714285, 0.15, 4.5" radius="0.13" height="0.13" color="0.125, 0.695312, 0.664062" phong="8" />
-    <Cone reference="cone5_7" center="0.14285714285714285, 0.15, 4.5" radius="0.13" height="0.13" color="0.527344, 0.804688, 0.976562" phong="8" />
-    <Cone reference="cone5_8" center="0.42857142857142855, 0.15, 4.5" radius="0.13" height="0.13" color="0.464844, 0.53125, 0.597656" phong="8" />
-    <Cone reference="cone5_9" center="0.7142857142857142, 0.15, 4.5" radius="0.13" height="0.13" color="0.464844, 0.53125, 0.597656" phong="8" />
-    <Cone reference="cone5_10" center="1.0, 0.15, 4.5" radius="0.13" height="0.13" color="0.6875, 0.765625, 0.867188" phong="8" />
-    <Cone reference="cone5_11" center="1.2857142857142856, 0.15, 4.5" radius="0.13" height="0.13" color="0.996094, 0.996094, 0.875" phong="8" />
-    <Cone reference="cone5_12" center="1.5714285714285714, 0.15, 4.5" radius="0.13" height="0.13" color="0, 0.996094, 0" phong="8" />
-    <Cone reference="cone5_13" center="1.857142857142857, 0.15, 4.5" radius="0.13" height="0.13" color="0.195312, 0.800781, 0.195312" phong="8" />
-    <Cone reference="cone6_0" center="-1.857142857142857, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.976562, 0.9375, 0.898438" phong="8" />
-    <Cone reference="cone6_1" center="-1.5714285714285714, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.996094, 0, 0.996094" phong="8" />
-    <Cone reference="cone6_2" center="-1.2857142857142856, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.5, 0, 0" phong="8" />
-    <Cone reference="cone6_3" center="-1.0, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.398438, 0.800781, 0.664062" phong="8" />
-    <Cone reference="cone6_4" center="-0.7142857142857142, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0, 0, 0.800781" phong="8" />
-    <Cone reference="cone6_5" center="-0.42857142857142855, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.726562, 0.332031, 0.824219" phong="8" />
-    <Cone reference="cone6_6" center="-0.14285714285714285, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.574219, 0.4375, 0.855469" phong="8" />
-    <Cone reference="cone6_7" center="0.14285714285714285, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.234375, 0.699219, 0.441406" phong="8" />
-    <Cone reference="cone6_8" center="0.42857142857142855, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.480469, 0.40625, 0.929688" phong="8" />
-    <Cone reference="cone6_9" center="0.7142857142857142, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0, 0.976562, 0.601562" phong="8" />
-    <Cone reference="cone6_10" center="1.0, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.28125, 0.816406, 0.796875" phong="8" />
-    <Cone reference="cone6_11" center="1.2857142857142856, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.777344, 0.0820312, 0.519531" phong="8" />
-    <Cone reference="cone6_12" center="1.5714285714285714, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.0976562, 0.0976562, 0.4375" phong="8" />
-    <Cone reference="cone6_13" center="1.857142857142857, 0.44999999999999996, 4.5" radius="0.13" height="0.13" color="0.957031, 0.996094, 0.976562" phong="8" />
-    <Cone reference="cone7_0" center="-1.857142857142857, 0.75, 4.5" radius="0.13" height="0.13" color="0.996094, 0.890625, 0.878906" phong="8" />
-    <Cone reference="cone7_1" center="-1.5714285714285714, 0.75, 4.5" radius="0.13" height="0.13" color="0.996094, 0.890625, 0.707031" phong="8" />
-    <Cone reference="cone7_2" center="-1.2857142857142856, 0.75, 4.5" radius="0.13" height="0.13" color="0.996094, 0.867188, 0.675781" phong="8" />
-    <Cone reference="cone7_3" center="-1.0, 0.75, 4.5" radius="0.13" height="0.13" color="0, 0, 0.5" phong="8" />
-    <Cone reference="cone7_4" center="-0.7142857142857142, 0.75, 4.5" radius="0.13" height="0.13" color="0.988281, 0.957031, 0.898438" phong="8" />
-    <Cone reference="cone7_5" center="-0.42857142857142855, 0.75, 4.5" radius="0.13" height="0.13" color="0.5, 0.5, 0" phong="8" />
-    <Cone reference="cone7_6" center="-0.14285714285714285, 0.75, 4.5" radius="0.13" height="0.13" color="0.417969, 0.554688, 0.136719" phong="8" />
-    <Cone reference="cone7_7" center="0.14285714285714285, 0.75, 4.5" radius="0.13" height="0.13" color="0.996094, 0.644531, 0" phong="8" />
-    <Cone reference="cone7_8" center="0.42857142857142855, 0.75, 4.5" radius="0.13" height="0.13" color="0.996094, 0.269531, 0" phong="8" />
-    <Cone reference="cone7_9" center="0.7142857142857142, 0.75, 4.5" radius="0.13" height="0.13" color="0.851562, 0.4375, 0.835938" phong="8" />
-    <Cone reference="cone7_10" center="1.0, 0.75, 4.5" radius="0.13" height="0.13" color="0.929688, 0.90625, 0.664062" phong="8" />
-    <Cone reference="cone7_11" center="1.2857142857142856, 0.75, 4.5" radius="0.13" height="0.13" color="0.59375, 0.980469, 0.59375" phong="8" />
-    <Cone reference="cone7_12" center="1.5714285714285714, 0.75, 4.5" radius="0.13" height="0.13" color="0.683594, 0.929688, 0.929688" phong="8" />
-    <Cone reference="cone7_13" center="1.857142857142857, 0.75, 4.5" radius="0.13" height="0.13" color="0.855469, 0.4375, 0.574219" phong="8" />
-    <Cone reference="cone8_0" center="-1.857142857142857, 1.05, 4.5" radius="0.13" height="0.13" color="0.996094, 0.933594, 0.832031" phong="8" />
-    <Cone reference="cone8_1" center="-1.5714285714285714, 1.05, 4.5" radius="0.13" height="0.13" color="0.996094, 0.851562, 0.722656" phong="8" />
-    <Cone reference="cone8_2" center="-1.2857142857142856, 1.05, 4.5" radius="0.13" height="0.13" color="0.800781, 0.519531, 0.246094" phong="8" />
-    <Cone reference="cone8_3" center="-1.0, 1.05, 4.5" radius="0.13" height="0.13" color="0.996094, 0.75, 0.792969" phong="8" />
-    <Cone reference="cone8_4" center="-0.7142857142857142, 1.05, 4.5" radius="0.13" height="0.13" color="0.863281, 0.625, 0.863281" phong="8" />
-    <Cone reference="cone8_5" center="-0.42857142857142855, 1.05, 4.5" radius="0.13" height="0.13" color="0.6875, 0.875, 0.898438" phong="8" />
-    <Cone reference="cone8_6" center="-0.14285714285714285, 1.05, 4.5" radius="0.13" height="0.13" color="0.5, 0, 0.5" phong="8" />
-    <Cone reference="cone8_7" center="0.14285714285714285, 1.05, 4.5" radius="0.13" height="0.13" color="0.398438, 0.199219, 0.597656" phong="8" />
-    <Cone reference="cone8_8" center="0.42857142857142855, 1.05, 4.5" radius="0.13" height="0.13" color="0.996094, 0, 0" phong="8" />
-    <Cone reference="cone8_9" center="0.7142857142857142, 1.05, 4.5" radius="0.13" height="0.13" color="0.734375, 0.558594, 0.558594" phong="8" />
-    <Cone reference="cone8_10" center="1.0, 1.05, 4.5" radius="0.13" height="0.13" color="0.253906, 0.410156, 0.878906" phong="8" />
-    <Cone reference="cone8_11" center="1.2857142857142856, 1.05, 4.5" radius="0.13" height="0.13" color="0.542969, 0.269531, 0.0742188" phong="8" />
-    <Cone reference="cone8_12" center="1.5714285714285714, 1.05, 4.5" radius="0.13" height="0.13" color="0.976562, 0.5, 0.445312" phong="8" />
-    <Cone reference="cone8_13" center="1.857142857142857, 1.05, 4.5" radius="0.13" height="0.13" color="0.953125, 0.640625, 0.375" phong="8" />
-    <Cone reference="cone9_0" center="-1.857142857142857, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.179688, 0.542969, 0.339844" phong="8" />
-    <Cone reference="cone9_1" center="-1.5714285714285714, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.996094, 0.957031, 0.929688" phong="8" />
-    <Cone reference="cone9_2" center="-1.2857142857142856, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.625, 0.320312, 0.175781" phong="8" />
-    <Cone reference="cone9_3" center="-1.0, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.75, 0.75, 0.75" phong="8" />
-    <Cone reference="cone9_4" center="-0.7142857142857142, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.527344, 0.804688, 0.917969" phong="8" />
-    <Cone reference="cone9_5" center="-0.42857142857142855, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.414062, 0.351562, 0.800781" phong="8" />
-    <Cone reference="cone9_6" center="-0.14285714285714285, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.4375, 0.5, 0.5625" phong="8" />
-    <Cone reference="cone9_7" center="0.14285714285714285, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.4375, 0.5, 0.5625" phong="8" />
-    <Cone reference="cone9_8" center="0.42857142857142855, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.996094, 0.976562, 0.976562" phong="8" />
-    <Cone reference="cone9_9" center="0.7142857142857142, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0, 0.996094, 0.496094" phong="8" />
-    <Cone reference="cone9_10" center="1.0, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.273438, 0.507812, 0.703125" phong="8" />
-    <Cone reference="cone9_11" center="1.2857142857142856, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.820312, 0.703125, 0.546875" phong="8" />
-    <Cone reference="cone9_12" center="1.5714285714285714, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0, 0.5, 0.5" phong="8" />
-    <Cone reference="cone9_13" center="1.857142857142857, 1.3499999999999999, 4.5" radius="0.13" height="0.13" color="0.84375, 0.746094, 0.84375" phong="8" />
+    <Cone reference="cone0_0" center="-1.857142857142857, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.9375, 0.96875, 0.996094" phong="8" />
+    <Cone reference="cone0_1" center="-1.5714285714285714, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.976562, 0.917969, 0.839844" phong="8" />
+    <Cone reference="cone0_2" center="-1.2857142857142856, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0.996094, 0.996094" phong="8" />
+    <Cone reference="cone0_3" center="-1.0, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.496094, 0.996094, 0.828125" phong="8" />
+    <Cone reference="cone0_4" center="-0.7142857142857142, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.9375, 0.996094, 0.996094" phong="8" />
+    <Cone reference="cone0_5" center="-0.42857142857142855, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.957031, 0.957031, 0.859375" phong="8" />
+    <Cone reference="cone0_6" center="-0.14285714285714285, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.890625, 0.765625" phong="8" />
+    <Cone reference="cone0_7" center="0.14285714285714285, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0, 0" phong="8" />
+    <Cone reference="cone0_8" center="0.42857142857142855, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.917969, 0.800781" phong="8" />
+    <Cone reference="cone0_9" center="0.7142857142857142, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0, 0.996094" phong="8" />
+    <Cone reference="cone0_10" center="1.0, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.539062, 0.167969, 0.882812" phong="8" />
+    <Cone reference="cone0_11" center="1.2857142857142856, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.644531, 0.164062, 0.164062" phong="8" />
+    <Cone reference="cone0_12" center="1.5714285714285714, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.867188, 0.71875, 0.527344" phong="8" />
+    <Cone reference="cone0_13" center="1.857142857142857, -1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.371094, 0.617188, 0.625" phong="8" />
+    <Cone reference="cone1_0" center="-1.857142857142857, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.496094, 0.996094, 0" phong="8" />
+    <Cone reference="cone1_1" center="-1.5714285714285714, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.820312, 0.410156, 0.117188" phong="8" />
+    <Cone reference="cone1_2" center="-1.2857142857142856, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.496094, 0.3125" phong="8" />
+    <Cone reference="cone1_3" center="-1.0, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.390625, 0.582031, 0.925781" phong="8" />
+    <Cone reference="cone1_4" center="-0.7142857142857142, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.96875, 0.859375" phong="8" />
+    <Cone reference="cone1_5" center="-0.42857142857142855, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.859375, 0.078125, 0.234375" phong="8" />
+    <Cone reference="cone1_6" center="-0.14285714285714285, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0.996094, 0.996094" phong="8" />
+    <Cone reference="cone1_7" center="0.14285714285714285, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0, 0.542969" phong="8" />
+    <Cone reference="cone1_8" center="0.42857142857142855, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0.542969, 0.542969" phong="8" />
+    <Cone reference="cone1_9" center="0.7142857142857142, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.71875, 0.523438, 0.0429688" phong="8" />
+    <Cone reference="cone1_10" center="1.0, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.660156, 0.660156, 0.660156" phong="8" />
+    <Cone reference="cone1_11" center="1.2857142857142856, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0.390625, 0" phong="8" />
+    <Cone reference="cone1_12" center="1.5714285714285714, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.660156, 0.660156, 0.660156" phong="8" />
+    <Cone reference="cone1_13" center="1.857142857142857, -1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.738281, 0.714844, 0.417969" phong="8" />
+    <Cone reference="cone2_0" center="-1.857142857142857, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.542969, 0, 0.542969" phong="8" />
+    <Cone reference="cone2_1" center="-1.5714285714285714, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.332031, 0.417969, 0.183594" phong="8" />
+    <Cone reference="cone2_2" center="-1.2857142857142856, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.546875, 0" phong="8" />
+    <Cone reference="cone2_3" center="-1.0, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.597656, 0.195312, 0.796875" phong="8" />
+    <Cone reference="cone2_4" center="-0.7142857142857142, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.542969, 0, 0" phong="8" />
+    <Cone reference="cone2_5" center="-0.42857142857142855, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.910156, 0.585938, 0.476562" phong="8" />
+    <Cone reference="cone2_6" center="-0.14285714285714285, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.558594, 0.734375, 0.558594" phong="8" />
+    <Cone reference="cone2_7" center="0.14285714285714285, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.28125, 0.238281, 0.542969" phong="8" />
+    <Cone reference="cone2_8" center="0.42857142857142855, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.183594, 0.308594, 0.308594" phong="8" />
+    <Cone reference="cone2_9" center="0.7142857142857142, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.183594, 0.308594, 0.308594" phong="8" />
+    <Cone reference="cone2_10" center="1.0, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0.804688, 0.816406" phong="8" />
+    <Cone reference="cone2_11" center="1.2857142857142856, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.578125, 0, 0.824219" phong="8" />
+    <Cone reference="cone2_12" center="1.5714285714285714, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.078125, 0.574219" phong="8" />
+    <Cone reference="cone2_13" center="1.857142857142857, -0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0.746094, 0.996094" phong="8" />
+    <Cone reference="cone3_0" center="-1.857142857142857, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.410156, 0.410156, 0.410156" phong="8" />
+    <Cone reference="cone3_1" center="-1.5714285714285714, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.410156, 0.410156, 0.410156" phong="8" />
+    <Cone reference="cone3_2" center="-1.2857142857142856, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.117188, 0.5625, 0.996094" phong="8" />
+    <Cone reference="cone3_3" center="-1.0, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.695312, 0.132812, 0.132812" phong="8" />
+    <Cone reference="cone3_4" center="-0.7142857142857142, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.976562, 0.9375" phong="8" />
+    <Cone reference="cone3_5" center="-0.42857142857142855, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.132812, 0.542969, 0.132812" phong="8" />
+    <Cone reference="cone3_6" center="-0.14285714285714285, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0, 0.996094" phong="8" />
+    <Cone reference="cone3_7" center="0.14285714285714285, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.859375, 0.859375, 0.859375" phong="8" />
+    <Cone reference="cone3_8" center="0.42857142857142855, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.96875, 0.96875, 0.996094" phong="8" />
+    <Cone reference="cone3_9" center="0.7142857142857142, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.839844, 0" phong="8" />
+    <Cone reference="cone3_10" center="1.0, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.851562, 0.644531, 0.125" phong="8" />
+    <Cone reference="cone3_11" center="1.2857142857142856, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.5, 0.5, 0.5" phong="8" />
+    <Cone reference="cone3_12" center="1.5714285714285714, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0.5, 0" phong="8" />
+    <Cone reference="cone3_13" center="1.857142857142857, -0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.675781, 0.996094, 0.183594" phong="8" />
+    <Cone reference="cone4_0" center="-1.857142857142857, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.5, 0.5, 0.5" phong="8" />
+    <Cone reference="cone4_1" center="-1.5714285714285714, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.9375, 0.996094, 0.9375" phong="8" />
+    <Cone reference="cone4_2" center="-1.2857142857142856, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.410156, 0.703125" phong="8" />
+    <Cone reference="cone4_3" center="-1.0, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.800781, 0.359375, 0.359375" phong="8" />
+    <Cone reference="cone4_4" center="-0.7142857142857142, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.292969, 0, 0.507812" phong="8" />
+    <Cone reference="cone4_5" center="-0.42857142857142855, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.996094, 0.9375" phong="8" />
+    <Cone reference="cone4_6" center="-0.14285714285714285, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.9375, 0.898438, 0.546875" phong="8" />
+    <Cone reference="cone4_7" center="0.14285714285714285, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.898438, 0.898438, 0.976562" phong="8" />
+    <Cone reference="cone4_8" center="0.42857142857142855, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.9375, 0.957031" phong="8" />
+    <Cone reference="cone4_9" center="0.7142857142857142, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.484375, 0.984375, 0" phong="8" />
+    <Cone reference="cone4_10" center="1.0, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.976562, 0.800781" phong="8" />
+    <Cone reference="cone4_11" center="1.2857142857142856, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.675781, 0.84375, 0.898438" phong="8" />
+    <Cone reference="cone4_12" center="1.5714285714285714, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.9375, 0.5, 0.5" phong="8" />
+    <Cone reference="cone4_13" center="1.857142857142857, -0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.875, 0.996094, 0.996094" phong="8" />
+    <Cone reference="cone5_0" center="-1.857142857142857, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.976562, 0.976562, 0.820312" phong="8" />
+    <Cone reference="cone5_1" center="-1.5714285714285714, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.824219, 0.824219, 0.824219" phong="8" />
+    <Cone reference="cone5_2" center="-1.2857142857142856, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.5625, 0.929688, 0.5625" phong="8" />
+    <Cone reference="cone5_3" center="-1.0, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.824219, 0.824219, 0.824219" phong="8" />
+    <Cone reference="cone5_4" center="-0.7142857142857142, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.710938, 0.753906" phong="8" />
+    <Cone reference="cone5_5" center="-0.42857142857142855, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.625, 0.476562" phong="8" />
+    <Cone reference="cone5_6" center="-0.14285714285714285, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.125, 0.695312, 0.664062" phong="8" />
+    <Cone reference="cone5_7" center="0.14285714285714285, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.527344, 0.804688, 0.976562" phong="8" />
+    <Cone reference="cone5_8" center="0.42857142857142855, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.464844, 0.53125, 0.597656" phong="8" />
+    <Cone reference="cone5_9" center="0.7142857142857142, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.464844, 0.53125, 0.597656" phong="8" />
+    <Cone reference="cone5_10" center="1.0, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.6875, 0.765625, 0.867188" phong="8" />
+    <Cone reference="cone5_11" center="1.2857142857142856, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.996094, 0.875" phong="8" />
+    <Cone reference="cone5_12" center="1.5714285714285714, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0.996094, 0" phong="8" />
+    <Cone reference="cone5_13" center="1.857142857142857, 0.15, 4.5" radius="0.13" height="0.13" closed="False" color="0.195312, 0.800781, 0.195312" phong="8" />
+    <Cone reference="cone6_0" center="-1.857142857142857, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.976562, 0.9375, 0.898438" phong="8" />
+    <Cone reference="cone6_1" center="-1.5714285714285714, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0, 0.996094" phong="8" />
+    <Cone reference="cone6_2" center="-1.2857142857142856, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.5, 0, 0" phong="8" />
+    <Cone reference="cone6_3" center="-1.0, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.398438, 0.800781, 0.664062" phong="8" />
+    <Cone reference="cone6_4" center="-0.7142857142857142, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0, 0.800781" phong="8" />
+    <Cone reference="cone6_5" center="-0.42857142857142855, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.726562, 0.332031, 0.824219" phong="8" />
+    <Cone reference="cone6_6" center="-0.14285714285714285, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.574219, 0.4375, 0.855469" phong="8" />
+    <Cone reference="cone6_7" center="0.14285714285714285, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.234375, 0.699219, 0.441406" phong="8" />
+    <Cone reference="cone6_8" center="0.42857142857142855, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.480469, 0.40625, 0.929688" phong="8" />
+    <Cone reference="cone6_9" center="0.7142857142857142, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0.976562, 0.601562" phong="8" />
+    <Cone reference="cone6_10" center="1.0, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.28125, 0.816406, 0.796875" phong="8" />
+    <Cone reference="cone6_11" center="1.2857142857142856, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.777344, 0.0820312, 0.519531" phong="8" />
+    <Cone reference="cone6_12" center="1.5714285714285714, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.0976562, 0.0976562, 0.4375" phong="8" />
+    <Cone reference="cone6_13" center="1.857142857142857, 0.44999999999999996, 4.5" radius="0.13" height="0.13" closed="False" color="0.957031, 0.996094, 0.976562" phong="8" />
+    <Cone reference="cone7_0" center="-1.857142857142857, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.890625, 0.878906" phong="8" />
+    <Cone reference="cone7_1" center="-1.5714285714285714, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.890625, 0.707031" phong="8" />
+    <Cone reference="cone7_2" center="-1.2857142857142856, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.867188, 0.675781" phong="8" />
+    <Cone reference="cone7_3" center="-1.0, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0, 0.5" phong="8" />
+    <Cone reference="cone7_4" center="-0.7142857142857142, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.988281, 0.957031, 0.898438" phong="8" />
+    <Cone reference="cone7_5" center="-0.42857142857142855, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.5, 0.5, 0" phong="8" />
+    <Cone reference="cone7_6" center="-0.14285714285714285, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.417969, 0.554688, 0.136719" phong="8" />
+    <Cone reference="cone7_7" center="0.14285714285714285, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.644531, 0" phong="8" />
+    <Cone reference="cone7_8" center="0.42857142857142855, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.269531, 0" phong="8" />
+    <Cone reference="cone7_9" center="0.7142857142857142, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.851562, 0.4375, 0.835938" phong="8" />
+    <Cone reference="cone7_10" center="1.0, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.929688, 0.90625, 0.664062" phong="8" />
+    <Cone reference="cone7_11" center="1.2857142857142856, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.59375, 0.980469, 0.59375" phong="8" />
+    <Cone reference="cone7_12" center="1.5714285714285714, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.683594, 0.929688, 0.929688" phong="8" />
+    <Cone reference="cone7_13" center="1.857142857142857, 0.75, 4.5" radius="0.13" height="0.13" closed="False" color="0.855469, 0.4375, 0.574219" phong="8" />
+    <Cone reference="cone8_0" center="-1.857142857142857, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.933594, 0.832031" phong="8" />
+    <Cone reference="cone8_1" center="-1.5714285714285714, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.851562, 0.722656" phong="8" />
+    <Cone reference="cone8_2" center="-1.2857142857142856, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.800781, 0.519531, 0.246094" phong="8" />
+    <Cone reference="cone8_3" center="-1.0, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.75, 0.792969" phong="8" />
+    <Cone reference="cone8_4" center="-0.7142857142857142, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.863281, 0.625, 0.863281" phong="8" />
+    <Cone reference="cone8_5" center="-0.42857142857142855, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.6875, 0.875, 0.898438" phong="8" />
+    <Cone reference="cone8_6" center="-0.14285714285714285, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.5, 0, 0.5" phong="8" />
+    <Cone reference="cone8_7" center="0.14285714285714285, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.398438, 0.199219, 0.597656" phong="8" />
+    <Cone reference="cone8_8" center="0.42857142857142855, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0, 0" phong="8" />
+    <Cone reference="cone8_9" center="0.7142857142857142, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.734375, 0.558594, 0.558594" phong="8" />
+    <Cone reference="cone8_10" center="1.0, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.253906, 0.410156, 0.878906" phong="8" />
+    <Cone reference="cone8_11" center="1.2857142857142856, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.542969, 0.269531, 0.0742188" phong="8" />
+    <Cone reference="cone8_12" center="1.5714285714285714, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.976562, 0.5, 0.445312" phong="8" />
+    <Cone reference="cone8_13" center="1.857142857142857, 1.05, 4.5" radius="0.13" height="0.13" closed="False" color="0.953125, 0.640625, 0.375" phong="8" />
+    <Cone reference="cone9_0" center="-1.857142857142857, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.179688, 0.542969, 0.339844" phong="8" />
+    <Cone reference="cone9_1" center="-1.5714285714285714, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.957031, 0.929688" phong="8" />
+    <Cone reference="cone9_2" center="-1.2857142857142856, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.625, 0.320312, 0.175781" phong="8" />
+    <Cone reference="cone9_3" center="-1.0, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.75, 0.75, 0.75" phong="8" />
+    <Cone reference="cone9_4" center="-0.7142857142857142, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.527344, 0.804688, 0.917969" phong="8" />
+    <Cone reference="cone9_5" center="-0.42857142857142855, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.414062, 0.351562, 0.800781" phong="8" />
+    <Cone reference="cone9_6" center="-0.14285714285714285, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.4375, 0.5, 0.5625" phong="8" />
+    <Cone reference="cone9_7" center="0.14285714285714285, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.4375, 0.5, 0.5625" phong="8" />
+    <Cone reference="cone9_8" center="0.42857142857142855, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.996094, 0.976562, 0.976562" phong="8" />
+    <Cone reference="cone9_9" center="0.7142857142857142, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0.996094, 0.496094" phong="8" />
+    <Cone reference="cone9_10" center="1.0, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.273438, 0.507812, 0.703125" phong="8" />
+    <Cone reference="cone9_11" center="1.2857142857142856, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.820312, 0.703125, 0.546875" phong="8" />
+    <Cone reference="cone9_12" center="1.5714285714285714, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0, 0.5, 0.5" phong="8" />
+    <Cone reference="cone9_13" center="1.857142857142857, 1.3499999999999999, 4.5" radius="0.13" height="0.13" closed="False" color="0.84375, 0.746094, 0.84375" phong="8" />
   </things>
 </scene>
 

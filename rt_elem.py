@@ -176,6 +176,7 @@ class Cone(Thing):
         my_centro = self.pars["center"]
         my_radius = self.pars["radius"]
         my_height = self.pars["height"]
+        closed = self.pars["closed"]
         height_v = VEC3(0, my_centro.y, 0).normalize()
         v = ray.loc - my_centro
         theta = m.atan2(my_radius, my_height)
@@ -187,7 +188,13 @@ class Cone(Thing):
         b = ((c1*c2)-c4)*2
         c = (v*height_v)**2-v*v*m.cos(theta)**2 
         s = (b*b - 4*a*c) * 2*m.pi
-    
+
+        if(closed):
+            p = VEC3(my_centro.x, my_centro.y-my_height, my_centro.x)
+            pn = VEC3(0, p.y, 0).normalize()
+            base = -((ray.loc - p) * pn)/(ray.dir * pn)
+            print(a, b, c, s, p, pn, base)
+
         if s > 0:
             r1 = (-b - m.sqrt(s))/(2*a)
             r2 = (-b + m.sqrt(s))/(2*a)
@@ -208,8 +215,6 @@ class Cone(Thing):
 
         else:
             return []
-
-
 
 
 
