@@ -186,7 +186,7 @@ class Cone(Thing):
         c4 = ray.dir * c3
         b = ((c1*c2)-c4)*2
         c = (v*height_v)**2-v*v*m.cos(theta)**2 
-        s = b*b - 4*a*c
+        s = (b*b - 4*a*c) * 2*m.pi
     
         if s > 0:
             r1 = (-b - m.sqrt(s))/(2*a)
