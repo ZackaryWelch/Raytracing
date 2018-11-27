@@ -187,7 +187,7 @@ class Cone(Thing):
         c4 = ray.dir * c3
         b = ((c1*c2)-c4)*2
         c = (v*height_v)**2-v*v*m.cos(theta)**2 
-        s = (b*b - 4*a*c) * 20*m.pi
+        s = (b*b - 4*a*c)
 
         #if(closed):
             #p = VEC3(my_centro.x, my_centro.y-my_height, my_centro.x)
@@ -198,10 +198,14 @@ class Cone(Thing):
         if s > 0:
             r1 = (-b - m.sqrt(s))/(2*a)
             r2 = (-b + m.sqrt(s))/(2*a)
-            rango = (ray.at(r1) - my_centro) * height_v
-            if (rango < 0) and (rango > 0 - my_height):
-                return [Hit( r1, (ray.at(r1) - my_centro).normalize(), self ),
-                        Hit( r2, (ray.at(r2) - my_centro).normalize(), self ) ]
+            P1 = (ray.at(r1) - my_centro).normalize() 
+            P2 = (ray.at(r2) - my_centro).normalize() 
+            rango1 = P1 * height_v
+            rango2 = P2 * height_v
+            e = 0.000000001
+            if (rango1 < m.cos(theta) + e and rango1 > m.cos(theta) - e) and (rango2 < m.cos(theta) + e and rango2 > m.cos(theta) - e) and (ray.at(r1).y > my_centro.y + my_height) and (ray.at(r1).y < my_centro.y - my_height) and (ray.at(r2).y > my_centro.y + my_height) and (ray.at(r2).y < my_centro.y - my_height):
+                return [Hit( r1, P1, self ),
+                        Hit( r2, P2, self ) ]
             else:
                 return []
 
