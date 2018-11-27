@@ -34,7 +34,7 @@ def generate_conos():
     SCENE_NAME = "140_conos.xml"
     dist = 4.5;                     # Distancia del origen
     radius = 0.13                   # Radio de la esferas
-    cone_height = 0.13
+    cone_height = -0.13
     closed = "False"
     width = 4; height = 3;          # Tamanio del arreglo
     el_hor = 14                     # 14 esferas por fila...
