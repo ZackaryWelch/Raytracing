@@ -188,7 +188,7 @@ class Cone(Thing):
         b = ((c1*c2)-c4)*2
         c = (v*height_v)**2-v*v*m.cos(theta)**2 
         s = (b*b - 4*a*c)
-        e = 0.000000001
+        e = 1E-12
 
         #if(closed):
             #p = VEC3(my_centro.x, my_centro.y-my_height, my_centro.x)
