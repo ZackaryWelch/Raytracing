@@ -7,4 +7,4 @@ Zackary Welch (@ZackaryWelch)
 
 Franco Truffa (@francotruffa1)
 
-N Gonzalez (@ngonzalezXX1)
+Nico Gonzalez (@ngonzalezXX1)
